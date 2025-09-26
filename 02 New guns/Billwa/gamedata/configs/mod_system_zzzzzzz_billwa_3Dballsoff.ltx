@@ -1,0 +1,23 @@
+;For more information: https://www.moddb.com/mods/stalker-anomaly/addons/meta-3d-ballistics
+
+; Some weapon models are borked, and shoot in weird directions when 3D ballistics are enabled.
+; These settings will revert them back to default vanilla behaviour.
+; If you become aware fixes to the models are available to the public, please notify us.
+
+
+;;BILLWA  ============ ============ ============ ============
+
+; M16A2
+; Move back, left, and up when aiming
+!![wpn_m16a2]
+aimpos	= false
+firepos	= false
+![wpn_m16a2_commando]
+aimpos	= false
+firepos	= false
+
+; Milkor MGL M32
+; misalignment between hand model and aiming point, which seems to go up left, and up when using ironsight.
+![wpn_m32_mgl]
+aimpos	= false
+firepos	= false
