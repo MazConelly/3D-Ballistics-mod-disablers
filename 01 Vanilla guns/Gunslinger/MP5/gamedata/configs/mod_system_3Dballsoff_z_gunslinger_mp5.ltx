@@ -1,0 +1,20 @@
+;For more information: https://www.moddb.com/mods/stalker-anomaly/addons/meta-3d-ballistics
+
+; Some weapon models are borked, and shoot in weird directions when 3D ballistics are enabled.
+; These settings will revert them back to default vanilla behaviour.
+; If you become aware fixes to the models are available to the public, please notify us.
+
+;Gunslinger MP5
+;these aim up right
+![wpn_mp5_alt]
+aimpos	= false
+![wpn_mp5_nimble]
+aimpos	= false
+![wpn_mp5sd]
+aimpos	= false
+
+; The SD custom and new ones are fine though. Make sure they don't inherit the above
+![wpn_mp5sd_custom]
+aimpos	= true
+![wpn_mp5sd_new]
+aimpos	= true
